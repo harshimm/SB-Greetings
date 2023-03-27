@@ -2,7 +2,7 @@
 Simple welcome page in Springboot
 
 ### Technologies
-- HTML, CSS, JavaScript
+- HTML, CSS
 - Springboot framework
 - Dependencies
   - [Thymeleaf](https://www.thymeleaf.org/)
