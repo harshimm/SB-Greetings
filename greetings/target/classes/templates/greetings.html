@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link th:href="@{styles/css/greeting.css}" rel="stylesheet" />
+<title>Welcome Page</title>
+</head>
+<body>
+
+<div class="welcome">
+<p>Welcome to SpringBoot Tutorials</p>
+
+<form method = "POST" action = "/greetings">
+     <input type="submit" value="Start"/>      
+</form>
+</div>
+
+
+</body>
+</html>

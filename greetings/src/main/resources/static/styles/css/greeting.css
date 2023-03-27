@@ -1,0 +1,17 @@
+body
+{
+	background:linear-gradient(to bottom,black,purple,pink);
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:100vh;
+	margin:0;
+}
+p
+{	color:white;
+	font-size:40px;
+}
+.welcome
+{
+	text-align:center;
+	justify-content:center;
+}

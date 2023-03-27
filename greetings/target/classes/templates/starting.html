@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link th:href="@{styles/css/starting.css}" rel="stylesheet" />
+<title>Insert title here</title>
+</head>
+<body>
+
+<div class="start">
+<div class="greeting" th:if="${greeting}">
+<!-- <h1 style="display:inline;"> Hi </h1> -->
+    <p th:text="${greeting} "/>
+</div>
+<div class="name" th:if="${name}">
+<!-- <h1 style="display:inline;"> Hi </h1> -->
+    <p th:text="${name}"/>
+</div>
+
+<p class="intro">Let's start the journey . . .</p>
+</div>
+
+</body>
+</html>

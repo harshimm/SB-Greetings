@@ -1,0 +1,29 @@
+body
+{
+	background:linear-gradient(to bottom,darkblue,purple,pink);
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:100vh;
+	margin:0;
+}
+.greeting, .intro
+{
+	color:grey;
+}
+.name
+{
+	color:white;
+}
+.greeting, .name
+{
+	font-size: 40px;
+}
+.intro
+{
+	font-size: 20px;
+}
+.start
+{
+	text-align:center;
+	justify-content:center;
+}
